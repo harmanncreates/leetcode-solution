@@ -4,7 +4,7 @@ Target: Data Engineering | Goal: 1500+ problems
 
 ## Progress
 Problems solved: 3 ||
-Easy: 3 | Medium: 0 | Hard: 0
+Easy: 5 | Medium: 1 | Hard: 0
 
 ## Structure
 Easy/ → Easy problems
