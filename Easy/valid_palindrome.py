@@ -1,3 +1,9 @@
+# Pattern: Two Pointers
+# Time: O(n) | Space: O(1)
+# Key insight: skip non-alphanumeric characters in place
+# compare left and right moving inward
+# O(1) space vs O(n) for creating new cleaned string
+
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         clean = ""
