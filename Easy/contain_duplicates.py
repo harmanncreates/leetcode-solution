@@ -1,3 +1,9 @@
+# Pattern: Set
+# Time: O(n) | Space: O(n)
+# Key insight: set only stores existence not count
+# simpler than dictionary for this problem
+# if number already in set → duplicate found
+
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         counter = {}
