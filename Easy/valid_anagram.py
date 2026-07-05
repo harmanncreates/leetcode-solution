@@ -1,3 +1,9 @@
+# Pattern: Hashmap / Character Count
+# Time: O(n) | Space: O(1) — max 26 keys
+# Key insight: count character frequencies in s,
+# then verify t matches by decrementing counts
+# early exit if lengths differ
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
